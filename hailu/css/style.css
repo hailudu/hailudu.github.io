@@ -1,0 +1,11 @@
+/*main grid*/
+main{
+    display:grid;
+    grid-template-rows: auto 3rem auto auto;
+    /* 4 rijen, */
+    grid-template-areas:
+             "banner banner"
+             "aside content"
+             "footer footer";
+    grid-gap: 0.2%;
+}
